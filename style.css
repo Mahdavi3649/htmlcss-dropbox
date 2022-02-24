@@ -26,7 +26,7 @@
 
 .first-container {
   width: 820px;
-  height: 850px;
+  height: 760px;
   margin: 50px auto;
   background-color: rgb(221, 221, 72);
 }
@@ -37,28 +37,107 @@
   background-color: orange;
 }
 
-.col-10,
-.col-11 {
+.col-10 {
   width: 33%;
-  height: 550px;
   background-color: orange;
   float: left;
   margin-top: 10px;
-  margin-left: 3px;
+  margin-left: 2px;
 }
-
-.col-12 {
-  width: 33%;
-  height: 550px;
-  background-color: orange;
-  float: right;
-  margin-top: 10px;
-}
-
 .col-6 {
   width: 100%;
   height: 120px;
   background-color: orange;
   float: left;
   margin-top: 10px;
+}
+
+.second-container {
+  width: 820px;
+  height: 400px;
+  margin: 50px auto;
+  background-color: rgb(13, 96, 117);
+}
+
+.col-70 {
+  width: 69%;
+  float: left;
+  background-color: rgb(82, 185, 199);
+}
+
+.col-30 {
+  width: 30%;
+  float: right;
+  background-color: rgb(82, 185, 199);
+}
+
+.col-50 {
+  width: 50%;
+  height: 50%;
+  background-color: black;
+  float: left;
+}
+
+.height400 {
+  height: 400px;
+}
+
+.height500 {
+  height: 500px;
+}
+.height300 {
+  height: 300px;
+}
+
+.third-container {
+  width: 820px;
+  height: 850px;
+  background-color: rgb(250, 225, 2);
+  margin: 50px auto;
+}
+
+.col-100 {
+  width: 100%;
+  background-color: green;
+}
+
+.height200 {
+  height: 200px;
+}
+
+.forth-container {
+  width: 100%;
+  height: 760px;
+  background-color: lightsalmon;
+}
+
+.col-33 {
+  width: 30%;
+  height: 400px;
+  background-color: rgb(226, 43, 144);
+  float: left;
+}
+
+.col-40 {
+  width: 40%;
+  height: 400px;
+  background-color: rgb(226, 43, 144);
+  float: left;
+}
+
+.col-100 {
+  width: 100%;
+  background-color: rgb(85, 85, 212);
+  float: left;
+}
+
+.questions-container {
+  width: 820px;
+  margin: 50px auto;
+  background-color: rgb(226, 136, 151);
+}
+
+.footer-container {
+  width: 100%;
+  background-color: #333;
 }
