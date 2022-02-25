@@ -8,6 +8,8 @@
   --button-color: rgb(14, 94, 223);
   --border-color: lightgray;
   --month-color: gray;
+  --primary-color: black;
+  --secondary-color: white;
 }
 body {
   font-family: "Open Sans", sans-serif;
@@ -168,6 +170,19 @@ a.m-right {
   margin-right: 20px;
 }
 
+.btn-sm {
+  background-color: var(--secondary-color);
+  color: var(--primary-color);
+  padding: 4px 15px;
+  border: 1px solid black;
+}
+
+.text-partner {
+  padding: 27px;
+  margin-top: 20px;
+  font-size: 12px;
+}
+
 .punti > div {
   margin-top: 11px;
 }
@@ -182,6 +197,12 @@ a.m-right {
   margin-top: 10px;
   margin-left: 2px;
 }
+
+.col-10 > img {
+  width: 100%;
+  height: 50%;
+  object-fit: cover;
+}
 .col-6 {
   width: 100%;
   height: 140px;
@@ -189,30 +210,33 @@ a.m-right {
   margin-top: 10px;
 }
 
-.second-container {
+.dropbox-text {
+  padding: 24px;
+  font-size: 12px;
+}
+
+.partner-call {
   width: 820px;
   height: 400px;
   margin: 50px auto;
-  background-color: rgb(13, 96, 117);
+  background-color: var(--secondary-color);
 }
 
-.col-70 {
-  width: 69%;
+.col-60 > img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.col-60 {
+  width: 59%;
   float: left;
   background-color: rgb(82, 185, 199);
 }
 
-.col-30 {
-  width: 30%;
+.col-40 {
+  width: 40%;
   float: right;
-  background-color: rgb(82, 185, 199);
-}
-
-.col-50 {
-  width: 50%;
-  height: 50%;
-  background-color: black;
-  float: left;
 }
 
 .height400 {
@@ -228,9 +252,17 @@ a.m-right {
 
 .third-container {
   width: 820px;
-  height: 850px;
-  background-color: rgb(250, 225, 2);
+  height: 860px;
   margin: 50px auto;
+}
+
+.third-container > h2 {
+  margin: 8px;
+  font-weight: 700;
+}
+
+.clienti {
+  padding: 3rem 23rem;
 }
 
 .col-100 {
@@ -242,23 +274,31 @@ a.m-right {
   height: 200px;
 }
 
-.forth-container {
+.partners-container {
   width: 100%;
   height: 760px;
   background-color: lightsalmon;
 }
 
-.col-33 {
+.partners {
   width: 30%;
   height: 400px;
   background-color: rgb(226, 43, 144);
   float: left;
 }
 
-.col-40 {
+.partners > .col-50 {
+  position: relative;
+  float: left;
+  width: 50%;
+  height: 100px;
+  background-color: green;
+}
+
+.col-45 {
   width: 40%;
   height: 400px;
-  background-color: rgb(226, 43, 144);
+  background-color: rgb(134, 39, 92);
   float: left;
 }
 
