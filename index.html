@@ -7,32 +7,46 @@
     <title>Dropbox</title>
     <link rel="stylesheet" href="style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Alfa+Slab+One&family=Anton&family=Cabin&family=Oswald&family=Roboto:wght@400;500&family=Space+Mono&family=Ubuntu:wght@300&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,600,300' rel='stylesheet' type='text/css'-->
+    
+
     
 </head>
-<body>
+<body class="debug">
     <header id="siter_header">
-        <nav class="clearfix"> 
-            <div class="left-nav">
-                <img class="logo" src="img/logo-small.png">
-                <a class="m-left" href="#">Perchè Dropbox?</a>
-                <a class="m-left" href="#">Funzioni</a>
-                <a class="m-left" href="#">Piani e prezzi</a>
-            </div>
-            <div class="right-nav menu-right">
-                <a class="m-right" href="#">Supporto</a>
-                <a class="m-right" href="#">Contatta l'ufficio vendita</a>
-                <a class="m-right" href="#">Accedi</a>
-                <a class="m-right" href="#"><span>Inizia</span></a>
-            </div>
-        </nav>
+
+        <div class="row"> 
+
+            <nav class="navbar">
+                <div class="half-head"> 
+                    <a class="logo">
+                        <img src="img/logo-small.png" alt="">
+                    </a>
+                    <ul class="menu-left inline-list">
+                        <li><a href="">Perchè Dropbox?</a></li>
+                        <li><a href="">Funzioni</a></li>
+                        <li><a href="">Piani e Prezzi</a></li>
+                    </ul>
+                </div>
+                <div class="half-head text-right">
+                    <ul class="menu-right inline-list">
+                        <li><a href="">Supporto</a></li>
+                        <li><a href="">Contatta l'ufficio vendeite</a></li>
+                        <li><a href="">Accedi</a></li>
+                    </ul>
+                    <a href="#" class="btn btn-primary">Inizia</a>
+
+                </div>
+                </nav>
+        </div>
     </header>
     <!-- /#side-header -->
 
     <main id="side-main">
         <div class="intro-main">
-            <div class="title-container">
+            <div class="jumbotron">
+
                 <h1>Tutto ciò che ti serve per il lavoro, <br> in un unico posto</h1>
             </div>
             <div class="paragraph-intro clearfix">
@@ -220,35 +234,174 @@
             </section>
 
                    <div class="partners-container clearfix">
-                       <div class="partners">
-                           <div class="col-50">
+                       <div class="partners clearfix">
+                           <div class="col-50 designit">
+                               <img src="img/designit.svg" alt="">
                            </div>
-                           <div class="col-50 bd-purple"></div>
-                           <div class="col-50 bg-blue"></div>
-                           <div class="col-50 bg-red"></div>
+                           <div class="col-50 asu">
+                               <img src="img/arizona_state_university.svg" alt="">
+                           </div>
+                           <div class="col-50 uf">
+                               <img src="img/university_of_florida.svg" alt="">
+                           </div>
+                           <div class="col-50 topps">
+                               <img src="img/topps.svg" alt="">
+                           </div>
                        </div>
     
-                       <div class="col-45"></div>
-                       <div class="partners">
-                           <div class="col-50"></div>
-                           <div class="col-50"></div>
-                           <div class="col-50"></div>
-                           <div class="col-50"></div>
+                       <div class="col-45">
+                           <div class="logo-title">
+                               <img src="img/designit.svg" alt="">
+                               <hr class="hr-partner">
+                               <p>"I membri del nostro team lavorano costantemente in paesi, fusi orari e uffici diversi. Ora molte soluzioni sono compatibili con queste esigenze, ma nessuna è facile quanto Dropbox e Dropbox Paper. Ora molte soluzioni sono compatibili con queste esigenze,
+                                ma nessuna è facile quanto Dropbox Paper".</p>
+                                <p>Morten Thomsen, Global IT Lead</p>
+                           </div>
                        </div>
-                       <div class="col-100 height200"></div>
 
+                       <div class="partners">
+                           <div class="col-50 wbr">
+                               <img src="img/world_bicycle_relief.svg" alt="">
+
+                           </div>
+                           <div class="col-50 hearst">
+                               <img src="img/hearst_corp.svg" alt="">
+                           </div>
+                           <div class="col-50 lonley-planet">
+                               <img src="img/lonely_planet.svg" alt="">
+                           </div>
+                           <div class="col-50 clear-chennel">
+                               <img src="img/clear_channel.svg" alt="">
+                           </div>
+                       </div>
                     </div>
+                    <section class="section-porta">
+                        <div class="medium-width clearfix">
+                            <div class="title purple"><h2>Porta Dropbox Business <br> nella tua azienda</h2></div>
+                            <a href="#" class="btn-prova">Inizia la tua prova gratuita</a>
+                        </div>
+                    </section>
                   </div>
 
-            <div class="questions-container height400">
 
-            </div>
+                <section id="section-question">
+                    <div class="medium-width">
+                        <div class="title-faq border-bottom">
+                            <h3>Domande frequenti</h3>
+                        </div>                     
+                        
+                        <div class="row border-bottom">
+                            <div class="col-60">
+                                <p><strong>Qual'è la differenza tra Dropbox Business Standard e Dropbox Business Advanced?</strong> </p> 
+                            </div>
+                            <div class="col-40 text-right">
+                                <i class="fa-solid fa-angle-down"></i>
+                            </div>
+                        </div>
 
+                        <div class="row border-bottom">
+                            <div class="col-60">
+                                <p><strong>Qual'è la differenza tra Dropbox Business Standard e Dropbox Business Advanced?</strong> </p> 
+                            </div>
+                            <div class="col-40 text-right">
+                                <i class="fa-solid fa-angle-down"></i>
+                            </div>
+                        </div>
+
+                        <div class="row border-bottom">
+                            <div class="col-60">
+                                <p><strong>Qual'è la differenza tra Dropbox Business Standard e Dropbox Business Advanced?</strong> </p> 
+                            </div>
+                            <div class="col-40 text-right">
+                                <i class="fa-solid fa-angle-down"></i>
+                            </div>
+                        </div>
+
+                        <div class="row border-bottom">
+                            <div class="col-60">
+                                <p><strong>Qual'è la differenza tra Dropbox Business Standard e Dropbox Business Advanced?</strong> </p> 
+                            </div>
+                            <div class="col-40 text-right">
+                                <i class="fa-solid fa-angle-down"></i>
+                            </div>
+                        </div>
+                    </div>     
     </main>
     <!-- /#side-main -->
 
     <footer id="side-footer">
         <div class="footer-container height300">
+
+            <div class="top-footer">
+
+                <div class="row m-b40">
+                    <div class="col-16 m-r4">
+                        <h4>Dropbox</h4>
+                        <ul class="unstyle">
+                            <li><a href="#">Applicazione Desktop</a></li>
+                            <li><a href="#"> Perché Dropbox</a></li>
+                            <li><a href="#">Piani</a></li>
+                            <li><a href="#">Sicurezza</a></li>
+                            <li><a href="#">Funzioni</a></li>
+                        </ul>
+                    </div>
+
+                    <div class="col-16 m-r4">
+                        <h4>Prodotti</h4>
+                        <ul class="unstyle">
+                            <li><a href="#">Applicazione Desktop</a></li>
+                            <li><a href="#"> Perché Dropbox</a></li>
+                            <li><a href="#">Piani</a></li>
+                            <li><a href="#">Sicurezza</a></li>
+                            <li><a href="#">Funzioni</a></li>
+                        </ul>
+                    </div>
+
+                    <div class="col-16 m-r4">
+                        <h4>Azienda</h4>
+                        <ul class="unstyle">
+                            <li><a href="#">Applicazione Desktop</a></li>
+                            <li><a href="#"> Perché Dropbox</a></li>
+                            <li><a href="#">Piani</a></li>
+                            <li><a href="#">Sicurezza</a></li>
+                            <li><a href="#">Funzioni</a></li>
+                        </ul>
+                    </div>
+
+                    <div class="col-16 m-r4">
+                        <h4>Supporto</h4>
+                        <ul class="unstyle">
+                            <li><a href="#">Applicazione Desktop</a></li>
+                            <li><a href="#"> Perché Dropbox</a></li>
+                            <li><a href="#">Piani</a></li>
+                            <li><a href="#">Sicurezza</a></li>
+                            <li><a href="#">Funzioni</a></li>
+                        </ul>
+                    </div>
+
+                    <div class="col-16 m-r4">
+                        <h4>Community</h4>
+                        <ul class="unstyle">
+                            <li><a href="#">Applicazione Desktop</a></li>
+                            <li><a href="#"> Perché Dropbox</a></li>
+                            <li><a href="#">Piani</a></li>
+                        </ul>
+                    </div>
+                </div>
+
+            </div>
+
+            <div class="bottom-footer">
+                <div class="language">
+                    <i class="fa-solid fa-earth-americas"></i>
+                    <select name="nation">
+                       <option value="option1">Italiano</option>
+                       <option value="option2">Inglese</option>
+                    </select>
+                </div>
+            </div>
+
+        </div> 
     </footer>
     <!-- /#side-footer -->
 </body>
