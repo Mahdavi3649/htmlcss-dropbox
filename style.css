@@ -142,6 +142,11 @@ footer {
   object-fit: contain;
 }
 
+.icon-chevron {
+  text-align: right;
+  padding-top: 20px;
+}
+
 .designit {
   background-color: #add09e;
 }
@@ -400,7 +405,6 @@ header {
   background-color: var(--light);
   color: var(--dark);
   padding: 8px 45px;
-  display: inline-block;
   text-decoration: none;
   font-size: 12px;
   display: inline-block;
@@ -411,7 +415,7 @@ header {
 }
 
 .title-faq {
-  padding: 39px 0;
+  padding: 3rem 0;
 }
 
 .text-right {
@@ -421,11 +425,6 @@ header {
   font-size: 12px;
   padding-top: 20px;
   padding-bottom: 20px;
-}
-
-.section-question {
-  width: 80%;
-  margin: auto;
 }
 /* End main */
 
@@ -884,16 +883,8 @@ header {
 
 .title-faq {
   padding: 39px 0;
-  margin: 0 13rem;
 }
 
-.m-13 {
-  margin: 0 13rem;
-}
-
-.m-r13 {
-  margin-right: 13rem;
-}
 .text-right {
   text-align: right;
 }
