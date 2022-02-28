@@ -191,17 +191,12 @@ ul.inline-list > li {
 }
 
 .px-1 {
-  padding-left: 18px;
-  padding-right: 18px;
+  padding-left: 22px;
+  padding-right: 22px;
 }
 
-.btn-lg {
-  color: white;
-  background-color: var(--primary);
-  padding: 0px 60px;
-  text-align: center;
+.fm-r {
   float: right;
-  font-size: 11px;
   margin-right: 20px;
 }
 
@@ -212,6 +207,9 @@ ul.inline-list > li {
   border: 1px solid black;
 }
 
+.fa-check {
+  color: var(--primary);
+}
 .text-right {
   text-align: right;
 }
@@ -293,10 +291,10 @@ header {
   line-height: 2rem;
   border: 2px solid var(--light);
 }
-.content-enterprise > p {
-  font-size: 11px;
-}
 
+.content-enterprise > h2 {
+  margin-bottom: 1.3rem;
+}
 .row > h2 {
   padding-top: 1rem;
   padding-bottom: 2rem;
@@ -401,7 +399,7 @@ header {
 .btn-prova {
   background-color: var(--light);
   color: var(--dark);
-  padding: 8px 50px;
+  padding: 8px 45px;
   display: inline-block;
   text-decoration: none;
   font-size: 12px;
@@ -427,7 +425,6 @@ header {
 .text-right {
   text-align: right;
 }
-
 .col-60 > p {
   font-size: 12px;
   padding-top: 20px;
@@ -438,11 +435,9 @@ header {
   width: 80%;
   margin: auto;
 }
-
 /* End main */
 
 /* footer */
-
 .footer-container {
   width: 80%;
   background-color: var(--dark);
@@ -799,7 +794,6 @@ header {
   margin-top: 20px;
   font-size: 12px;
 }
-
 .dropbox-text {
   padding: 24px;
   font-size: 12px;
@@ -807,7 +801,6 @@ header {
 .clienti {
   padding: 1rem 14rem;
 }
-
 .link {
   color: var(--primary);
   text-decoration: underline;
@@ -836,7 +829,7 @@ header {
 .col-55 img {
   position: absolute;
   width: 50%;
-  height: 100%;
+  height: auto;
   margin: auto;
   filter: invert(100%);
   top: 0;
@@ -888,7 +881,6 @@ header {
   background-color: var(--light);
   color: var(--dark);
   padding: 8px 50px;
-  display: inline-block;
   text-decoration: none;
   font-size: 12px;
   display: inline-block;
@@ -924,11 +916,9 @@ header {
   width: 80%;
   margin: auto;
 }
-
 /* End main */
 
 /* footer */
-
 .footer-container {
   width: 80%;
   background-color: var(--dark);
