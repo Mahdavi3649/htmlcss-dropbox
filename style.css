@@ -6,6 +6,7 @@
   --lighter: #ffffff;
   --accent: #610828;
   --month: gray;
+  --dropdown: rgb(187, 184, 184);
   --title-color: rgb(99, 26, 99);
 }
 
@@ -33,7 +34,7 @@ header {
 }
 
 .debug > main {
-  height: 4000px;
+  height: 3900px;
 }
 
 .debug > footer {
@@ -62,7 +63,67 @@ footer {
 .features {
   height: 900px;
 }
+/* Dropdown */
+.Dropdown-contain {
+  padding: 10px;
+}
 
+.Dropdown-contain li {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+}
+
+.Dropdown-contain ul.inline-list {
+  width: 100%;
+}
+
+li.Dropdwon {
+  position: relative;
+  margin: 0;
+  padding: 0;
+}
+
+li .Dropdown-contain {
+  display: none;
+  font-size: 12px;
+  width: 50%;
+  position: absolute;
+  background-color: var(--dropdown);
+}
+
+li .Dropdown-contain.right {
+  right: 0;
+  padding-right: 8px;
+}
+
+li.Dropdown:hover .Dropdown-contain {
+  display: block;
+}
+
+li.Dropdown a {
+  width: 100%;
+  display: inline-block;
+  text-align: left;
+}
+
+.Dropdown-contain li:hover {
+  background-color: lightgrey;
+}
+
+.min-w-500 {
+  min-width: 500px;
+}
+
+.min-w-600 {
+  min-width: 600px;
+}
+
+.m-t-15 {
+  margin-top: 15px;
+}
+
+/* EndDropdown */
 /* utility */
 .container {
   width: 70%;
@@ -410,13 +471,6 @@ header {
   display: inline-block;
   margin: 3rem;
 }
-.border-bottom {
-  border-bottom: 1px solid lightgray;
-}
-
-.title-faq {
-  padding: 3rem 0;
-}
 
 .text-right {
   text-align: right;
@@ -426,7 +480,50 @@ header {
   padding-top: 20px;
   padding-bottom: 20px;
 }
+
+.faq > .question > strong {
+  display: inline-block;
+  width: 90%;
+  padding: 14px 0;
+  font-size: 13px;
+}
+
+.faq .answer {
+  padding: 8px 0;
+  display: none;
+  font-size: 12px;
+}
+
+.faq {
+  border-top: 1px solid var(--light);
+}
+.pt-4 {
+  padding-top: 4rem;
+  padding-bottom: 2rem;
+}
+
+.faq:hover .answer {
+  display: block;
+}
+
+.faq:hover i {
+  transform: rotate(180deg);
+}
+
+.faq > .question > i {
+  width: 5%;
+}
 /* End main */
+
+/* accordion */
+.question > p {
+  display: inline-block;
+}
+.question:hover .answer {
+  display: block;
+}
+
+/* end-accordion */
 
 /* footer */
 .footer-container {
@@ -895,10 +992,6 @@ header {
   padding-bottom: 20px;
 }
 
-.section-question {
-  width: 80%;
-  margin: auto;
-}
 /* End main */
 
 /* footer */
